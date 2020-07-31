@@ -200,6 +200,10 @@ public class LinearAlgebraBonus1
 				break;
 			}
 		}
+
+		System.out.println("\n\nX= " + augmentedMatrix[0][3]);
+		System.out.println("Y= " + augmentedMatrix[1][3]);
+		System.out.println("Z= " + augmentedMatrix[2][3]);
 	}
 
 	private static boolean isPivotRow(float[][] matrix, int row)
